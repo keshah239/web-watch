@@ -1,0 +1,192 @@
+/* Убирает с браузера лишние фичи */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'League Spartan', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* ----------------------------------------- */
+
+    .header-container{
+        display: flex;
+        width:auto;
+        padding-top: 104px;
+        padding-left: 133px; 
+        padding-right:  133px; 
+        padding-bottom: 168px;
+        background-color: #F8F8F8;
+
+}
+    .header-title{
+        font-size: 24px;
+        line-height: 45px;
+        font-weight: 400;
+        margin-bottom: 53px;
+}
+    .header-subtitle{
+        font-size: 250px;
+        line-height: 230px;
+        margin-bottom: 43px;
+
+}
+    .header-description{
+        height: 142px;
+        width: 575px;
+        margin-bottom: 61px;
+        font-size: 32px;
+        line-height: 50px;
+}
+    .buy-wrapper{
+        display: flex;
+
+
+}
+
+    .buy-link{
+        display: block;
+        width: 278px;
+        height: 82px;
+        background-color: #161515;
+        color: #fff;
+        text-decoration:none;
+        font-size: 32px;
+        line-height: 82px;
+        text-align: center;
+        margin-top: 61px;
+}
+
+    .price{
+        width: 143px;
+        height: 82px;
+        background-color: #ddd9d9;
+        color: rgb(31, 30, 30);
+        font-size: 32px;
+        line-height: 82px;
+        text-align: center;
+        margin-top: 61px;
+}
+    .header-img{
+        display: flex;
+        margin-top:-107px;
+        margin-left: 100px;
+
+}
+    .popular-title{
+        margin-top: 43px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 45px;}
+
+    .models-title{
+        text-align: center;
+        font-size: 72px;
+        line-height: 81px;
+        font-weight: 400;
+        margin-bottom: 84px;
+}
+/* первая карточка */
+    .item-wrapper{
+        margin: 0 auto;
+        width: 417px;
+        margin-bottom: 85px;
+}
+    .item-img-wrapper{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 417px;
+        height: 630px;
+        background-color: #F8F8F8;
+        margin-bottom: 67px;
+}
+    .item-title{ 
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 17px;
+        text-align: center;
+
+}
+    .item-description{font-size: 32px;
+        line-height: 30px;
+        font-weight: 300;
+        text-align: center;
+}
+    /* Вторая карточка  */
+    .two-item-wrapper{
+        margin: 0 auto;
+        width: 417px;
+        margin-bottom: 85px;
+    }
+    .two-item-img-wrapper{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 417px;
+        height: 630px;
+        background-color: #F8F8F8;
+        margin-bottom: 67px;
+    }
+    .two-item-title{ 
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 17px;
+        text-align: center;
+    
+    }
+    .two-item-description{font-size: 32px;
+        line-height: 30px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .product-description-wrapper{
+        margin: 0 auto;
+        width: 417px;
+        margin-bottom: 85px;
+    }
+    .product-description-title{
+        text-align: center;
+        font-size: 32px;
+        line-height: 60px;
+        margin-bottom: 58px;
+        font-weight: 400;
+    
+    }
+    .product-description{
+       font-size: 24px;
+       text-align: center;
+       line-height: 40px; 
+       font-weight: 300;
+        width: 400px; 
+        
+    }
+    .link-product{
+        color: #BB8B5D;
+
+
+    }
